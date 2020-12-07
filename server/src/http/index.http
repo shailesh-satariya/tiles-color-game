@@ -1,0 +1,41 @@
+# auth API
+
+###
+# baseURL
+@baseURL = http://localhost:3000
+
+###
+# solve-game
+POST {{baseURL}}/solve-game
+Content-Type: application/json
+
+{
+  "gird": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ]
+  ]
+}
+
+###
+# solve-next-move
+POST {{baseURL}}/solve-next-move
+Content-Type: application/json
+
+{
+  "gird": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ]
+  ]
+}
